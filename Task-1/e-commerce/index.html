@@ -40,11 +40,11 @@
     <div class="product">
         <div class="product-images">
             <div class="main-image">
-                <img src="./images/image1.avif" alt="">
+                <img src="./images/image3.avif" alt="">
             </div>
             <div class="extra-images">
                 <div><img src="./images/image2.avif" alt=""></div>
-                <div><img src="./images/image3.avif" alt=""></div>
+                <div><img src="./images/image1.avif" alt=""></div>
                 <div><img src="./images/image4.avif" alt=""></div>
                 <div><img src="./images/image5.avif" alt=""></div>
                 <div><img src="./images/image6.avif" alt=""></div>
@@ -54,7 +54,7 @@
         <div class="product-details">
             <h3>Elegant Luxury Watch</h3>
             <h5>Prestige Time Co.</h5>
-            <h4>$499.99 <span class="old-price">$799.99</span> <span class="offer">38% OFF</span></h4>
+            <h4>$ <span id="price">499.99</span> <span class="old-price">$799.99</span> <span class="offer">38% OFF</span></h4>
             <p>This luxrious timepiece combines elegance with precision craftsmanship. Perfect for formal occassions or everyday wear, it features premium materials and impeccable design.</p>
             <div class="rating">
                 <i class="fa-solid fa-star"></i>
@@ -68,12 +68,12 @@
                 </div>
             </div>
             <div class="count">
-                <button class="increment">-</button>
-                <button class="number">1</button>
-                <button class="increment">+</button>
+                <button class="decrement" id="decrease">-</button>
+                <button class="number" id="quantity">1</button>
+                <button class="increment" id="increase">+</button>
             </div>
 
-            <div>Add to Bag</div>
+            <div class="add-to-bag">Add to Bag</div>
 
             <div class="limited-time">
                 <h5>Limited-Time Offer!</h5>

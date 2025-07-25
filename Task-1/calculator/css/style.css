@@ -34,6 +34,7 @@
     font-size: 45px;
     box-sizing: none;
     padding: 15px;
+    background-color: rgba(212, 211, 211, 0.564);
 }
 
 .calculator form input{
